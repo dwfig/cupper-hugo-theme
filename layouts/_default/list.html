@@ -6,13 +6,20 @@
       <li>
         <h2>
           <a href="{{ .Permalink }}">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
+            <!-- <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
               <use xlink:href="#bookmark"></use>
-            </svg>
+            </svg> -->
             {{ .Title }}
           </a>
         </h2>
-      </li>        
+        {{ $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" }}
+        {{ $publishDate := .PublishDate }}
+        {{ $publishDate.Format $dateFormat }} ◆
+        {{ with .Params.tags}}
+          <span>Tags: </span>
+          {{ range . }}<span>{{ . }} </span>{{ end }}
+        {{ end }}
+      </li>
     {{ end }}
     </ul>
   </main>
