@@ -101,6 +101,12 @@
   if (tagArea != null && tagArea.innerText.includes("VisLang")){
     currentLogo.setAttribute('src', "https://www.gigglingeye.com/images/eyelogo.svg");
   }
+  if (tagArea != null && tagArea.innerText.includes("Immersive Listening")){
+    currentLogo.setAttribute('src',"https://www.gigglingeye.com/images/earlogo.svg");
+  }
+  if (tagArea != null && tagArea.innerText.includes("PhysComp")){
+    currentLogo.setAttribute('src',"https://www.gigglingeye.com/images/chiplogo.svg");
+  }
 }());
 
 /* Switch and persist theme */
