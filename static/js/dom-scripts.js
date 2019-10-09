@@ -98,6 +98,9 @@
 (function () {
   var tagArea = document.querySelector(".tags");
   var currentLogo = document.querySelector("img");
+  if(tagArea == null){
+    currentLogo.setAttribute('src',"https://www.gigglingeye.com/images/chatlogo.svg")
+  }
   if (tagArea != null && tagArea.innerText.includes("VisLang")){
     currentLogo.setAttribute('src', "https://www.gigglingeye.com/images/eyelogo.svg");
   }
