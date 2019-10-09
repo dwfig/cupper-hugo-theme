@@ -98,8 +98,7 @@
 (function () {
   var tagArea = document.querySelector(".tags");
   var currentLogo = document.querySelector("img");
-  if (tagArea.innerText.includes("VisLang")){
-    console.log("bump");
+  if (tagArea.innerText!= null && tagArea.innerText.includes("VisLang")){
     currentLogo.setAttribute('src', "https://www.gigglingeye.com/images/eyelogo.svg");
   }
 }());
