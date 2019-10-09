@@ -95,6 +95,15 @@
   });
 }());
 
+(function () {
+  var tagArea = document.querySelector(".tags");
+  var currentLogo = document.querySelector("img");
+  if (tagArea.innerText.includes("VisLang")){
+    console.log("bump");
+    currentLogo.setAttribute('src', "https://www.gigglingeye.com/images/eyelogo.svg");
+  }
+}());
+
 /* Switch and persist theme */
 // (function () {
 //   function CSSSupported (property, value) {
