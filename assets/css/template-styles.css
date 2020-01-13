@@ -970,6 +970,18 @@ h1 svg {
       flex-direction: column;
     }
 
+    .selectedProject{
+      margin: 0 0 1em 0;
+      font-size: 0.7em;
+    }
+
+    .selectedProjectDetails > h3{
+      font-size: 1.2em;
+    }
+
+    .selectedProjectImage{
+      width:100px;
+    }
 
     body a {
       hyphens: auto;
