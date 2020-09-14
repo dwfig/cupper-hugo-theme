@@ -16,7 +16,8 @@
     box-sizing: border-box;
 }
 html {
-    font-size: calc(1em + 0.33vw);
+    /* font-size: calc(1em + 0.33vw); */
+    font-size: 12pt;
     font-family: Helvetica Neue, sans-serif;
     line-height: 1.5;
     color: #206;
