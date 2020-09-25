@@ -369,7 +369,8 @@ caption {
     position: fixed;
     top: 0;
     left: 0;
-    border-right: 2px solid;
+    /* border-right: 2px solid; */
+    /* background-color: white; */
 }
 .intro-and-nav > div {
     padding: 2.25rem;
