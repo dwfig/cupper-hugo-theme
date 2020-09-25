@@ -160,6 +160,7 @@ h3,
 h4 {
     font-family: Miriam Libre, serif;
     line-height: 1.125;
+    background-color: none;
 }
 h1 {
     font-size: 2rem;
