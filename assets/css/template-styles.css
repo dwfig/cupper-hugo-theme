@@ -97,6 +97,7 @@ div:not([tabindex]):focus {
 
 #selectedProjectContainer{
     display: flex;
+    margin-right: 2em;
     flex-direction: column;
 }
 
@@ -105,8 +106,8 @@ div:not([tabindex]):focus {
   margin: 1em;
   /* padding: 0.4em; */
   /* background-color: #DDDDDD */
-  border: 2px solid;
-  border-radius: 6px;
+  /* border: 2px solid; */
+  /* border-radius: 6px; */
   display: flex;
   flex-direction: row;
 }
@@ -429,7 +430,7 @@ caption {
 }
 
 .main-and-footer > div {
-    max-width: 40rem;
+    /* max-width: 40rem; */
     margin: 0 auto;
     padding: 2.25rem;
 }
