@@ -18,11 +18,13 @@
 html {
     /* font-size: calc(1em + 0.33vw); */
     font-size: 12pt;
-    font-family: Helvetica Neue, sans-serif;
+    font-family: Palatino, Georgia, serif;
     line-height: 1.5;
     height: 100vh;
     color: #206;
-    background-color: #fefefe;
+    /* background-color: #fbfaff; */
+    /* background-color: #fff7f0 */
+    background-color: #fffbf7;
 }
 template {
   display: none !important;
@@ -401,7 +403,9 @@ caption {
     margin-left: 15rem;
     flex: 1;
 }
-
+#article > p{
+    width: 65%;
+}
 .footerflex{
   flex: 1 100px;
   /* width: 15rem; */
