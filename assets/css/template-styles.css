@@ -1,10 +1,10 @@
 /* Fonts */
-@font-face {
+/* @font-face {
     font-family: 'Miriam Libre';
     src: url('{{ "css/fonts/miriamlibre-bold.woff2" | absURL }}') format('woff2'), url('{{ "css/fonts/miriamlibre-bold.woff" | absURL }}') format('woff');
     font-weight: bold;
     font-style: normal;
-}
+} */
 *,
 *::before,
 *::after {
@@ -160,7 +160,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: Miriam Libre, serif;
+    font-family: Averia Serif Libre, serif;
     line-height: 1.125;
     background-color: transparent;
 }
@@ -1077,14 +1077,18 @@ h1 svg {
     }
     a {
         border: 0;
+        text-decoration: underline;
     }
-    main a::after {
+    #article > p{
+        width: 100%;
+    }
+    /* main a::after {
         content: " (" attr(href) ")";
         word-break: break-word;
-    }
-    main nav a::after {
+    } */
+    /* main nav a::after {
         content: '';
-    }
+    } */
     .cmd code {
         background: #fefefe;
         color: #111;
